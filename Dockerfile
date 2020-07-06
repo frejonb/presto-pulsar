@@ -5,7 +5,7 @@ ARG PRESTO_VERSION="0.206"
 ARG PRESTO_BIN="${MIRROR}/presto-server/${PRESTO_VERSION}/presto-server-${PRESTO_VERSION}.tar.gz"
 ARG PRESTO_CLI_BIN="${MIRROR}/presto-cli/${PRESTO_VERSION}/presto-cli-${PRESTO_VERSION}-executable.jar"
 ARG PULSAR_MIRROR="https://archive.apache.org/dist/pulsar"
-ARG PULSAR_VERSION="2.4.2"
+ARG PULSAR_VERSION="2.5.0"
 ARG PRESTO_PULSAR_PLUGIN="${PULSAR_MIRROR}/pulsar-${PULSAR_VERSION}/apache-pulsar-${PULSAR_VERSION}-bin.tar.gz"
 
 USER root
